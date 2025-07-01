@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #D9D9D9;
+}
+
+body {
+    line-height: 1.4;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px;
+    height: 100vh;
+}
+
+.min-height {
+    min-height: 100vh;
+}
+
+.wrapper .content {
+    text-align: center;
+}
+
+.wrapper .content h1 {
+    font-size: 120px;
+    margin-bottom: 20px;
+    color: #404040;
+    font-family: Ubuntu, sans-serif;
+}
+
+.wrapper .content h4 {
+    font-size: 20px;
+    color: #8f9094;
+    font-weight: 300;
+}
+
+.wrapper .content a {
+    color: #e97386;
+}
