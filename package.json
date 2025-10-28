@@ -1,11 +1,11 @@
 {
-  "name": "abrahanzarza",
-  "description": "Portfolio website of Abrahan Zarza",
+  "name": "virginiabedmar",
+  "description": "Portfolio website of Virginia Bedmar",
   "scripts": {
     "dev": "webpack-dev-server .",
     "build": "webpack ."
   },
-  "author": "Abrahan Zarza",
+  "author": "Virginia Bedmar",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.20.7",
