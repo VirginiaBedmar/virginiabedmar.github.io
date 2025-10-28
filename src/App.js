@@ -2,11 +2,19 @@ import React from 'react';
 import './App.scss';
 import './App.responsive.scss';
 import Header from './components/header/Header';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import About from './components/about/About';
 
 export default () => {
     return (
         <div className="container">
             <Header/>
+            <main>
+                <About/>
+                <Contact/>
+                <Footer/>
+            </main>
         </div>
     )
 };

@@ -1,4 +1,4 @@
-# Portfolio · Abrahan Zarza
+# Portfolio · Virginia Bedmar
 
 ![React](https://img.shields.io/badge/React-18.2-blue)
 ![Webpack](https://img.shields.io/badge/Webpack-5.75-green)

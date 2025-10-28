@@ -1,0 +1,41 @@
+section#contact {
+    margin: 244px 0 188px;
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        line-height: 1.2;
+        font-size: 3rem;
+        color: #fff;
+        margin: 0;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    p {
+        margin: 2.5rem 0 0;
+        color: #8F9094;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out .3s, transform .3s ease-in-out .3s;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .social-wrapper {
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out .4s, transform .3s ease-in-out .4s;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}

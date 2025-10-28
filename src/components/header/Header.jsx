@@ -31,9 +31,22 @@ export default () => {
     return (
         <header className="full-height" ref={elementRef}>
             <div className="header-wrapper">
+                <div className={`intro ${isVisible ? 'on-screen' : ''}`}>
+                    <img src="assets/images/dots.svg"/>
+                    <p className="highlight-text">
+                        ¡Hola! Yo soy_
+                    </p>
+                    <h1>Virginia Bedmar.</h1>
+                </div>
                 <h2 className={`${isVisible ? 'on-screen' : ''}`}>
-                    🚀 <span className="text-highlight">Virgiverso</span> en construcción...
+                    <span className="text-highlight">Diseñadora Gráfica · UX/UI</span> malagueña especializada en la creación<br/>
+                    de experiencias digitales atractivas y funcionales.
                 </h2>
+                <ul className={`current-main-info ${isVisible ? 'on-screen' : ''}`}>
+                    <li>
+                        🚀 Actualmente especializada en Diseño UX/UI (Research / Design Thinking / Prototipado).
+                    </li>
+                </ul>
                 <div className={`social-wrapper ${isVisible ? 'on-screen' : ''}`}>
                     <Social/>
                 </div>

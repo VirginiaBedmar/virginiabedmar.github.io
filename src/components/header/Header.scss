@@ -3,7 +3,6 @@ header {
     min-height: 767px;
     display: flex;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
     .header-wrapper {
         position: relative;
@@ -27,7 +26,6 @@ header {
             p {
                 position: relative;
                 z-index: 1;
-                color: #3ccf91;
                 font-size: 1.95rem;
                 font-weight: 600;
                 margin: 0;
@@ -50,10 +48,9 @@ header {
             line-height: 1.2;
             font-size: 2rem;
             letter-spacing: -1px;
-            font-weight: 400;
+            font-weight: 600;
             .text-highlight {
-                color: #404040;
-                font-weight: 600;
+                color: #fff;
             }
             transform: translateY(8rem);
             opacity: 0;

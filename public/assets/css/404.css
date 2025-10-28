@@ -7,7 +7,7 @@ html, body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    background-color: #D9D9D9;
+    background-color: #000;
 }
 
 body {
@@ -32,16 +32,16 @@ body {
 .wrapper .content h1 {
     font-size: 120px;
     margin-bottom: 20px;
-    color: #404040;
+    color: #fff;
     font-family: Ubuntu, sans-serif;
 }
 
 .wrapper .content h4 {
     font-size: 20px;
-    color: #8f9094;
+    color: #fff;
     font-weight: 300;
 }
 
 .wrapper .content a {
-    color: #e97386;
+    color: #3ccf91;
 }
