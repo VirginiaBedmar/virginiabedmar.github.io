@@ -1,0 +1,36 @@
+section#work {
+    margin: 244px 0 48px;
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0px, 1fr));
+        gap: 4rem;
+        .info {
+            transform: translateY(4rem);
+            opacity: 0;
+            transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+            &.on-screen {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            h2 {
+                font-size: 1.5rem;
+                line-height: 1.2;
+                font-weight: 700;
+                color: #fff;
+                font-family: Ubuntu, sans-serif;
+            }
+            p {
+                margin: 0.25rem 0 0;
+                font-size: 1.25rem;
+                color: #8F9094;
+            }
+            a {
+                font-size: 1.25rem;
+                text-decoration: none;
+                cursor: pointer;
+                display: inline-block;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}

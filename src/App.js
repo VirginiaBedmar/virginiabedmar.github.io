@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
+import Work from './components/work/Work';
 
 export default () => {
     return (
@@ -12,6 +13,7 @@ export default () => {
             <Header/>
             <main>
                 <About/>
+                <Work/>
                 <Contact/>
                 <Footer/>
             </main>
