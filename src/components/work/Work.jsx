@@ -6,24 +6,24 @@ import WorkCard from '../work-card/WorkCard';
 const projects = [
     {
         img: "assets/images/aventra.png",
-        link: "#",
+        link: "#", //TODO: add real link
         name: "Aventra",
-        technologies: ["Web", "Responsive"],
-        resume: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        technologies: ["Web", "Responsive", "IA"],
+        resume: "Plataforma web que centraliza la planificación, reserva y organización de viajes impulsada por la IA."
     },
     {
         img: "assets/images/mentalizt.png",
-        link: "#",
+        link: "#", //TODO: add real link
         name: "MentaliZT",
         technologies: ["Mobile"],
-        resume: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        resume: "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación."
     },
     {
         img: "assets/images/arteo.png",
-        link: "#",
+        link: "#", //TODO: add real link
         name: "Arteo",
-        technologies: ["Mobile"],
-        resume: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        technologies: ["Mobile", "IA"],
+        resume: "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida.",
     },
 ];
 
