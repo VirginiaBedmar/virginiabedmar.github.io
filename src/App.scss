@@ -8,7 +8,6 @@
 html, body {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
     background-color: #000;
 }
 
@@ -29,4 +28,78 @@ html, body {
 
 .highlight-text {
     color: #e310ef;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.close-button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 100%;
+    transition: 250ms;
+    z-index: 1;
+    &:before {
+        content: '×';
+        color: #fff;
+        font-size: 5rem;
+        font-weight: 100;
+        line-height: 0;
+        position: absolute;
+        top: 29px;
+        left: 12px;
+    }
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.16);
+        cursor: pointer;
+    }
+}
+
+.work-detail-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: #000;
+    overflow: auto;
+}
+
+.work-detail-enter {
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.work-detail-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.work-detail-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.work-detail-exit-active {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 300ms, transform 300ms;
 }

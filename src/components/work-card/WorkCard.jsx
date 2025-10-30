@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './WorkCard.scss';
 
-export default ({project}) => {
+export default ({project, onProjectSelect}) => {
     const [isVisible, setIsVisible] = useState(false);
     const elementRef = useRef(null);
 
@@ -27,11 +27,15 @@ export default ({project}) => {
       }, []);
 
     return (
-        <div ref={elementRef} className={`project ${isVisible ? 'on-screen' : ''}`}>
-            <figure>
+        <div
+            ref={elementRef}
+            className={`project ${isVisible ? 'on-screen' : ''}`}
+            onClick={() => onProjectSelect(project)}
+        >
+            <figure className="cursor-pointer">
                 <img src={project.img}></img>
             </figure>
-            <div className="text">
+            <div className="text cursor-pointer">
                 {
                     project.link === '#'
                     ? <span className="project-name-no-action">{project.name}</span>
