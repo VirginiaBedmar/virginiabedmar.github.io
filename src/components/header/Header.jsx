@@ -44,7 +44,7 @@ export default () => {
                 </h2>
                 <ul className={`current-main-info ${isVisible ? 'on-screen' : ''}`}>
                     <li>
-                        🚀 Actualmente especializada en Diseño UX/UI (Research / Design Thinking / Prototipado).
+                        🚀 Actualmente especializada en Diseño UX/UI (Research / Design System / Prototipado).
                     </li>
                 </ul>
                 <div className={`social-wrapper ${isVisible ? 'on-screen' : ''}`}>
