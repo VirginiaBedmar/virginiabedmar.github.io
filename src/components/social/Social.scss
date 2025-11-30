@@ -1,3 +1,5 @@
+@import '../../Colors.scss';
+
 ul.social {
     list-style: none;
     margin: 2.5rem 0 0;
@@ -23,7 +25,7 @@ ul.social {
                 margin-right: .5rem;
             }
             span {
-                color: #fff;
+                color: $text-primary-color;
             }
         }
     }

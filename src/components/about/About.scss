@@ -1,3 +1,5 @@
+@import '../../Colors.scss';
+
 section#about {
     margin: 0 0 48px;
     h2 {
@@ -23,7 +25,7 @@ section#about {
             p {
                 margin-top: 1.4rem;
                 font-size: 16px;
-                color: #8F9094;
+                color: $text-secondary-color;
                 line-height: 1.5;
             }
             transform: translateY(8rem);

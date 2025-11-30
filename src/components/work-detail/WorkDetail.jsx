@@ -1,6 +1,7 @@
 import React from 'react';
 import './WorkDetail.scss';
 import './WorkDetail.responsive.scss';
+import Research from "../research/Research";
 
 export default ({project}) => {
     return (
@@ -19,7 +20,7 @@ export default ({project}) => {
                 <hr/>
             </div>
             <div className="research-wrapper">
-                //TODO: add research content here
+                <Research project={project}/>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
+@import '../../Colors.scss';
+
 .project {
     border-radius: 0.375rem;
     overflow: hidden;
@@ -23,7 +25,7 @@
     .text {
         a, .project-name-no-action {
             text-decoration: none;
-            color: #fff;
+            color: $text-primary-color;
             font-family: Ubuntu, sans-serif;
             font-size: 1.5rem;
             line-height: 1.5;
@@ -38,8 +40,8 @@
             padding: 0;
             display: flex;
             li {
-                background-color: rgba(255,255,255,0.15);
-                color: #e310ef;
+                background-color: $badge-bg-color;
+                color: $highlight-color;
                 margin-right: 0.5rem;
                 padding: 0.2rem 0.5rem;
                 font-size: 0.875rem;
@@ -55,14 +57,14 @@
             border-width: 0px 0px 1px;
             border-image: initial;
             border-style: solid;
-            border-color: #353535;
+            border-color: $hr-color;
         }
         p {
             margin-top: 0.5rem;
             margin-inline: 0px;
             margin-bottom: 0px;
             font-size: 1rem;
-            color: #8F9094;
+            color: $text-secondary-color;
         }
     }
 }

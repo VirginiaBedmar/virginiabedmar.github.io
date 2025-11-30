@@ -1,8 +1,10 @@
+@import '../../Colors.scss';
+
 footer {
     margin: 244px 0 48px;
     p {
         font-size: 0.875rem;
         text-align: center;
-        color: rgba(255,255,255,0.92);
+        color: $text-primary-color;
     }
 }
