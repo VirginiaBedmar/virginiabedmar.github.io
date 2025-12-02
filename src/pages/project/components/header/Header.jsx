@@ -1,6 +1,6 @@
 import React from 'react';
-import './WorkDetail.scss';
-import './WorkDetail.responsive.scss';
+import './Header.scss';
+import './Header.responsive.scss';
 
 export default ({project}) => {
     return (

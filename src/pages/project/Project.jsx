@@ -1,23 +1,21 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import projects from '../../config/db.json';
+import Header from "./components/header/Header";
 
 export default () => {
     const { slug } = useParams();
     const project = projects.find(p => p.slug === slug);
-
-    // TODO: handle the project not found case
     if (!project) {
-        return (
-            <div className="container">
-                Project not found.
-            </div>
-        )
+        window.location.href = '/';
     }
 
     return (
         <div className="container">
-            Project {project.name} page works file!
+            <Header project={project} />
+            <main>
+                The rest of the research.
+            </main>
         </div>
     )
 };

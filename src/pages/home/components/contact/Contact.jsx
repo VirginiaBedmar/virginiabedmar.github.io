@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Contact.scss';
 import './Contact.responsive.scss';
-import Social from '../social/Social';
+import Social from "../../../../components/social/Social";
 
 export default () => {
     const [isVisible, setIsVisible] = useState(false);

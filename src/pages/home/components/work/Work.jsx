@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './Work.scss';
 import './Work.responsive.scss';
 import WorkCard from '../work-card/WorkCard';
-import projects from '../../config/db.json';
+import projects from '../../../../config/db.json';
 
 export default () => {
     const [isVisible, setIsVisible] = useState(false);
