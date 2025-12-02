@@ -32,7 +32,7 @@ export default ({project}) => {
         <div
             ref={elementRef}
             className={`project ${isVisible ? 'on-screen' : ''}`}
-            onClick={() => navigate(`/proyectos/${project.slug}`)}
+            onClick={() => navigate(`/${project.slug}`)}
         >
             <figure className="cursor-pointer">
                 <img src={project.img}></img>

@@ -10,7 +10,7 @@ export default () => {
         <div className="container">
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/proyectos/:slug" element={<Project/>}/>
+                <Route path="/:slug" element={<Project/>}/>
                 <Route path="*" element={<Home/>}/>
             </Routes>
         </div>
