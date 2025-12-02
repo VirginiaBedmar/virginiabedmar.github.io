@@ -50,9 +50,9 @@ export default () => {
                     </p>
                 </div>
                 <div className={`image-info ${isVisible ? 'on-screen' : ''}`}>
-                    <img className="dots" src="assets/images/dots.svg"/>
+                    <img className="dots" src="/assets/images/dots.svg"/>
                     <figure>
-                        <img src="assets/images/avatar.jpg" alt="Virginia Bedmar"/>
+                        <img src="/assets/images/avatar.jpg" alt="Virginia Bedmar"/>
                     </figure>
                 </div>
             </div>

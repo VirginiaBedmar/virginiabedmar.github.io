@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './WorkCard.scss';
 
-export default ({project, onProjectSelect}) => {
+export default ({project}) => {
     const [isVisible, setIsVisible] = useState(false);
     const elementRef = useRef(null);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -30,17 +32,13 @@ export default ({project, onProjectSelect}) => {
         <div
             ref={elementRef}
             className={`project ${isVisible ? 'on-screen' : ''}`}
-            onClick={() => onProjectSelect(project)}
+            onClick={() => navigate(`/project/${project.slug}`)}
         >
             <figure className="cursor-pointer">
                 <img src={project.img}></img>
             </figure>
             <div className="text cursor-pointer">
-                {
-                    project.link === '#'
-                    ? <span className="project-name-no-action">{project.name}</span>
-                    : <a href={project.link} target="_blank">{project.name}</a>
-                }
+                <span className="project-name-no-action">{project.name}</span>
                 <ul className="technologies">
                     {project.technologies.map((technology, key) =>
                         <li key={key} className={`badge-${technology.toLowerCase()}`}>{technology}</li>)}
