@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import projects from '../../config/db.json';
 import Header from "./components/header/Header";
+import Resume from "./components/resume/Resume";
+import Footer from "../../components/footer/Footer";
 
 export default () => {
     const { slug } = useParams();
@@ -12,10 +14,11 @@ export default () => {
 
     return (
         <div className="container">
-            <Header project={project} />
+            {/*<Header project={project} />*/}
             <main>
-                The rest of the research.
+                <Resume project={project} />
             </main>
+            <Footer/>
         </div>
     )
 };
