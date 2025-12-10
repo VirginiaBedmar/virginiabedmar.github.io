@@ -67,7 +67,6 @@ export default ({project}) => {
                             <img className="quote-image" src={project.img} alt={project.name} />
                         </figure>
                     </div>
-                    {/*// <!-- Add the "Porque viajar debería se tan fácil como soñar" section -->*/}
                 </div>
             </div>
         </div>
