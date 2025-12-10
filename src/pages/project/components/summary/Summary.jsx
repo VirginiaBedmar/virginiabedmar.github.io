@@ -1,16 +1,19 @@
 import React from 'react';
-import './Header.scss';
-import './Header.responsive.scss';
+import './Summary.scss';
+import './Summary.responsive.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFigma} from '@fortawesome/free-brands-svg-icons';
 import {faExternalLink} from "@fortawesome/free-solid-svg-icons";
+import {faFigma} from "@fortawesome/free-brands-svg-icons";
 
 export default ({project}) => {
     return (
-        <div id="header-work-detail" className="full-height" style={{display: project !== null ? 'flex' : 'none'}}>
-            <div className="text-header">
-                <h1>{project.name}</h1>
-                <p className="subtitle">Porque viajar debería ser tan fácil como soñar.</p>
+        <div id="summary">
+            <div className="center-info">
+                <h3>Más información</h3>
+                <p>
+                    Puedes obtener más información sobre <span className="highlight-text">{ project.name }</span><br/>
+                    echando un vistazo al prototipado o incluso accediendo al research completo.
+                </p>
                 <ul className="header-links">
                     <li>
                         <a href="#" target="_blank">
@@ -25,11 +28,6 @@ export default ({project}) => {
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div className="video-header">
-                <video autoPlay="autoplay" loop="loop" muted>
-                    <source src="./assets/videos/movie.mp4" type="video/mp4"/>
-                </video>
             </div>
         </div>
     )

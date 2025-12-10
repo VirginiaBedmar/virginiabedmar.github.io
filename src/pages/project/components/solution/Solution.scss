@@ -1,0 +1,63 @@
+@import '../../../../Colors.scss';
+
+#solution {
+    margin: 3.4rem 0 0;
+    h3 {
+        line-height: 1.2;
+        margin: 0;
+        font-weight: 700;
+        font-size: 2.9rem;
+        color: $text-primary-color;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+    }
+    p.summary-high {
+        line-height: 1.2;
+        margin: 2rem 0 0;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: $text-secondary-color;
+        font-family: "Ubuntu", sans-serif;
+        span {
+            color: $text-primary-color;
+        }
+    }
+    p.summary {
+        margin-top: 1.4rem;
+        font-size: 16px;
+        color: $text-secondary-color;
+        line-height: 1.5;
+    }
+    ul.details {
+        list-style: none;
+        margin: 2.4rem 0 0;
+        padding: 0;
+        justify-content: flex-start;
+        li {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0 0;
+            figure {
+                width: 50%;
+                margin: 0;
+                padding: 0;
+                img {
+                    width: 100%;
+                    border-radius: 1rem;
+                }
+            }
+            video {
+                width: 50%;
+                margin: 0;
+                padding: 0;
+                border-radius: 1rem;
+            }
+            .detailed-text {
+                width: 50%;
+                font-size: 16px;
+                color: $text-secondary-color;
+                line-height: 1.5;
+            }
+        }
+    }
+}

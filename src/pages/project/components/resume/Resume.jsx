@@ -1,12 +1,11 @@
 import React from 'react';
 import './Resume.scss';
 import './Resume.responsive.scss';
-import quote from "ajv/dist/runtime/quote";
 
 export default ({project}) => {
     return (
-        <div id="resume">
-            <h2>{project.name}</h2>
+        <div id="resume" className="full-height">
+            <h2>Lorem ipsum dolor sit amet consectetur. Eu sapien volutpat at feugiat nibh scelerisque integer lectus nunc. Sit pulvinar gravida amet nulla.</h2>
             <p className="summary">
                 Lorem ipsum dolor sit amet consectetur. Eu sapien volutpat at feugiat nibh scelerisque integer lectus nunc. Sit pulvinar gravida amet nulla. Non suspendisse sit velit volutpat turpis nunc netus sit. Pharetra dictumst velit egestas sagittis mauris amet felis. Aliquet nulla interdum quam egestas. Tellus viverra accumsan commodo nunc nunc varius tempus lacus. Tellus cursus quis gravida euismod ut molestie sed tortor. Tellus sit nunc amet rhoncus sed donec at praesent velit. Vel sit ipsum ornare at nascetur elit. Maecenas sapien pellentesque nisi interdum. Imperdiet sit luctus lacus lectus dignissim nulla fermentum eget morbi. Sit nulla.
             </p>
