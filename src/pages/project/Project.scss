@@ -1,0 +1,23 @@
+@import '../../Colors.scss';
+
+.close-button {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 100%;
+    transition: 250ms;
+    z-index: 1;
+    &:before {
+        content: '×';
+        color: $text-primary-color;
+        font-size: 5rem;
+        font-weight: 100;
+        line-height: 0;
+        position: absolute;
+        top: 29px;
+        left: 12px;
+    }
+}
