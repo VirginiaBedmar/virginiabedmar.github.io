@@ -51,13 +51,13 @@ export default ({project}) => {
                             </div>
                         </div>
                         <ul className="color-palette">
-                            <li style={{"background-color": "#959772", "bottom": "5.6rem"}}>
+                            <li style={{backgroundColor: "#959772", bottom: "5.6rem"}}>
                                 <span>#959772</span>
                             </li>
-                            <li style={{"background-color": "#02C39A", "bottom": "2.8rem"}}>
+                            <li style={{backgroundColor: "#02C39A", bottom: "2.8rem"}}>
                                 <span>#02C39A</span>
                             </li>
-                            <li style={{"background-color": "#00A896", "bottom": "0rem"}}>
+                            <li style={{backgroundColor: "#00A896", bottom: "0rem"}}>
                                 <span>#00A896</span>
                             </li>
                         </ul>
