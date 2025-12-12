@@ -9,7 +9,7 @@ export default ({project}) => {
     return (
         <div id="summary">
             <div className="center-info">
-                <h3>Más información</h3>
+                <h3>El resultado</h3>
                 <p>
                     Puedes obtener más información sobre <span className="highlight-text">{ project.name }</span><br/>
                     echando un vistazo al prototipado o incluso accediendo al research completo.

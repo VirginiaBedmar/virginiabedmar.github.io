@@ -28,7 +28,7 @@ export default ({project}) => {
             </div>
             <div className="video-header">
                 <video autoPlay="autoplay" loop="loop" muted>
-                    <source src="./assets/videos/movie.mp4" type="video/mp4"/>
+                    <source src="./assets/videos/aventra/demo.mp4" type="video/mp4"/>
                 </video>
             </div>
         </div>
