@@ -5,7 +5,7 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Footer from "../../components/footer/Footer";
 import About from "./components/about/About";
-import WorkDetail from "../../components/work-detail/WorkDetail";
+import ProjectModal from "../../components/project-modal/ProjectModal";
 
 export default () => {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -44,16 +44,7 @@ export default () => {
                 classNames="work-detail"
                 unmountOnExit
             >
-                {
-                    selectedProject ? (
-                        <div className="work-detail-wrapper">
-                            <div className="cursor-pointer close-button" onClick={() => setSelectedProject(null)}></div>
-                            <div className="container">
-                                <WorkDetail project={selectedProject}/>
-                            </div>
-                        </div>
-                    ) : <></>
-                }
+                <ProjectModal selectedProject={selectedProject} onClose={() => setSelectedProject(null)}/>
             </CSSTransition>
         </>
     )
