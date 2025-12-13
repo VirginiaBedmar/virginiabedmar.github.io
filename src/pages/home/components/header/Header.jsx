@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.scss';
 import './Header.responsive.scss';
-import Social from '../social/Social';
+import Social from '../../../../components/social/Social';
 
 export default () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -32,7 +32,7 @@ export default () => {
         <header className="full-height" ref={elementRef}>
             <div className="header-wrapper">
                 <div className={`intro ${isVisible ? 'on-screen' : ''}`}>
-                    <img src="assets/images/dots.svg"/>
+                    <img src="/assets/images/dots.svg"/>
                     <p className="highlight-text">
                         ¡Hola! Yo soy_
                     </p>

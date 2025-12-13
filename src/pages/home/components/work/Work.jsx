@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Work.scss';
 import './Work.responsive.scss';
-import WorkCard from '../work-card/WorkCard';
+import WorkCard from '../../../../components/work-card/WorkCard';
 
 const projects = [
     {
-        img: "assets/images/aventra.png",
+        img: "/assets/images/aventra.png",
         link: "#", //TODO: add real link
         name: "Aventra",
         technologies: ["Web", "Responsive", "IA"],
@@ -13,7 +13,7 @@ const projects = [
         summary: "Plataforma web que centraliza la planificación, reserva y organización de viajes, integrando alojamientos, transporte y actividades en un solo lugar con ayuda de IA. Su objetivo es reducir el estrés y la desorganización del viajero, mejorando la experiencia y apoyando a negocios locales.",
     },
     {
-        img: "assets/images/mentalizt.png",
+        img: "/assets/images/mentalizt.png",
         link: "#", //TODO: add real link
         name: "MentaliZT",
         technologies: ["Mobile"],
@@ -21,7 +21,7 @@ const projects = [
         summary: "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación. Su objetivo es mejorar la calidad de vida y reducir el impacto de estas enfermedades, cada vez más comunes en la sociedad actual.",
     },
     {
-        img: "assets/images/arteo.png",
+        img: "/assets/images/arteo.png",
         link: "#", //TODO: add real link
         name: "Arteo",
         technologies: ["Mobile", "IA"],
