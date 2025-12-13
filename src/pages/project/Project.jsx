@@ -1,10 +1,23 @@
 import React from "react";
-import WorkDetail from "../../components/work-detail/WorkDetail";
+import "./Project.scss";
+import "./Project.responsive.scss";
 
-export default ({selectedProject}) => {
+export default ({project}) => {
     return (
-        <div className="container">
-            <WorkDetail project={selectedProject}/>
+        <div id="project" className="container">
+            <figure>
+                <img src={project.img}></img>
+            </figure>
+            <div className="text">
+                <span className="project-name-no-action">{project.name}</span>
+                <ul className="technologies">
+                    {project.technologies.map((technology, key) =>
+                        <li key={key} className={`badge-${technology.toLowerCase()}`}>{technology}</li>)}
+                </ul>
+                <hr/>
+                <p>{project.summary}</p>
+                <hr/>
+            </div>
         </div>
     )
 };
