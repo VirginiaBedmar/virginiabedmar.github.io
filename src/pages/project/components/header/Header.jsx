@@ -30,7 +30,10 @@ export default ({project}) => {
     return (
         <header id="project-header" className="full-height" ref={elementRef}>
             <div className="text-wrapper">
-                <h1 className={`${isVisible ? 'on-screen' : ''}`}>{project.name}</h1>
+                <h1 className={`${isVisible ? 'on-screen' : ''}`}>
+                    <img src={project.logo} alt={project.title}/>
+                    <span>{project.name}</span>
+                </h1>
                 <h2 className={`${isVisible ? 'on-screen' : ''}`}>{project.detail.header.subtitle}</h2>
                 <ul className={`technologies ${isVisible ? 'on-screen' : ''}`}>
                     {project.technologies.map((technology, key) =>

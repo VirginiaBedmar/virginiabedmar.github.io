@@ -4,6 +4,7 @@
     "img": "/assets/projects/aventra/aventra-main.png",
     "name": "Aventra",
     "technologies": ["Web", "Responsive", "IA"],
+    "logo": "/assets/projects/aventra/logo.png",
     "detail": {
       "header": {
         "subtitle": "Porque viajar debería ser tan fácil como soñar.",
@@ -57,6 +58,7 @@
     "img": "/assets/projects/mentalizt/mentalizt-main.png",
     "name": "MentaliZT",
     "technologies": ["Mobile"],
+    "logo": "/assets/projects/mentalizt/logo.png",
     "detail": {
       "header": {
         "subtitle": "Gestiona tu estrés de forma eficaz y con herramientas.",
@@ -110,6 +112,7 @@
     "img": "/assets/projects/arteo/arteo-main.png",
     "name": "Arteo",
     "technologies": ["Mobile", "IA"],
+    "logo": "/assets/projects/arteo/logo.png",
     "detail": {
       "header": {
         "subtitle": "Descubrir el patrimonio que nos rodea nunca fue tan divertido.",

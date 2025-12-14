@@ -13,12 +13,18 @@
             font-size: 5.5rem;
             margin: 0;
             line-height: 1;
+            display: flex;
+            align-items: center;
             transform: translateY(8rem);
             opacity: 0;
             transition: opacity .3s ease-in-out, transform .3s ease-in-out;
             &.on-screen {
                 transform: translateY(0);
                 opacity: 1;
+            }
+            img {
+                width: 140px;
+                margin: 0 1rem 0 0;
             }
         }
         h2 {
