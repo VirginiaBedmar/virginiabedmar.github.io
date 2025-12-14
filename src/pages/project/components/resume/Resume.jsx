@@ -1,5 +1,6 @@
-import React from 'react';
-import './Resume.scss';
+import React from "react";
+import "./Resume.scss";
+import "./Resume.responsive.scss";
 
 export default ({project}) => {
     return (
