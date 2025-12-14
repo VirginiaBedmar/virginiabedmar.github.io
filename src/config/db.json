@@ -4,12 +4,51 @@
     "img": "/assets/projects/aventra/aventra-main.png",
     "name": "Aventra",
     "technologies": ["Web", "Responsive", "IA"],
-    "resume": "Plataforma web que centraliza la planificación, reserva y organización de viajes impulsada por la IA.",
-    "summary": "Plataforma web que centraliza la planificación, reserva y organización de viajes, integrando alojamientos, transporte y actividades en un solo lugar con ayuda de IA. Su objetivo es reducir el estrés y la desorganización del viajero, mejorando la experiencia y apoyando a negocios locales.",
     "detail": {
       "header": {
         "subtitle": "Porque viajar debería ser tan fácil como soñar.",
         "video": "/assets/projects/aventra/intro.mp4"
+      },
+      "resume": {
+        "title": "Plataforma web que centraliza la planificación, reserva y organización de viajes impulsada por la IA.",
+        "summary": "Plataforma web que centraliza la planificación, reserva y organización de viajes, integrando alojamientos, transporte y actividades en un solo lugar con ayuda de IA. Su objetivo es reducir el estrés y la desorganización del viajero, mejorando la experiencia y apoyando a negocios locales.",
+        "tags": [
+          "2025",
+          "Web Design",
+          "Figma",
+          "UX/UI",
+          "Design Thinking",
+          "Individual",
+          "Design System",
+          "Prototyping"
+        ],
+        "features": [
+          {
+            "high": "+4",
+            "thin": "pantallas"
+          },
+          {
+            "high": "15",
+            "thin": "días"
+          },
+          {
+            "high": "UX/UI",
+            "thin": "design"
+          },
+          {
+            "high": "Product",
+            "thin": "design"
+          }
+        ],
+        "typography": {
+          "name": "Poppins",
+          "family": "Open Sans"
+        },
+        "colorPalette": [
+          "#959772",
+          "#02C39A",
+          "#00A896"
+        ]
       }
     }
   },
@@ -18,12 +57,51 @@
     "img": "/assets/projects/mentalizt/mentalizt-main.png",
     "name": "MentaliZT",
     "technologies": ["Mobile"],
-    "resume": "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación.",
-    "summary": "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación. Su objetivo es mejorar la calidad de vida y reducir el impacto de estas enfermedades, cada vez más comunes en la sociedad actual.",
     "detail": {
       "header": {
         "subtitle": "Gestiona tu estrés de forma eficaz y con herramientas.",
         "video": "/assets/projects/mentalizt/intro.mp4"
+      },
+      "resume": {
+        "title": "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación.",
+        "summary": "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación. Su objetivo es mejorar la calidad de vida y reducir el impacto de estas enfermedades, cada vez más comunes en la sociedad actual.",
+        "tags": [
+          "2025",
+          "Web Design",
+          "Figma",
+          "UX/UI",
+          "Design Thinking",
+          "Individual",
+          "Design System",
+          "Prototyping"
+        ],
+        "features": [
+          {
+            "high": "+4",
+            "thin": "pantallas"
+          },
+          {
+            "high": "15",
+            "thin": "días"
+          },
+          {
+            "high": "UX/UI",
+            "thin": "design"
+          },
+          {
+            "high": "Product",
+            "thin": "design"
+          }
+        ],
+        "typography": {
+          "name": "Poppins",
+          "family": "Open Sans"
+        },
+        "colorPalette": [
+          "#959772",
+          "#02C39A",
+          "#00A896"
+        ]
       }
     }
   },
@@ -32,12 +110,51 @@
     "img": "/assets/projects/arteo/arteo-main.png",
     "name": "Arteo",
     "technologies": ["Mobile", "IA"],
-    "resume": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida.",
-    "summary": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida. Combina escaneo con IA, rutas personalizadas y coleccionables digitales para conectar a las personas con la cultura de su entorno.",
     "detail": {
       "header": {
         "subtitle": "Descubrir el patrimonio que nos rodea nunca fue tan divertido.",
         "video": "/assets/projects/arteo/intro.mp4"
+      },
+      "resume": {
+        "title": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida.",
+        "summary": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida. Combina escaneo con IA, rutas personalizadas y coleccionables digitales para conectar a las personas con la cultura de su entorno.",
+        "tags": [
+          "2025",
+          "Web Design",
+          "Figma",
+          "UX/UI",
+          "Design Thinking",
+          "Individual",
+          "Design System",
+          "Prototyping"
+        ],
+        "features": [
+          {
+            "high": "+4",
+            "thin": "pantallas"
+          },
+          {
+            "high": "15",
+            "thin": "días"
+          },
+          {
+            "high": "UX/UI",
+            "thin": "design"
+          },
+          {
+            "high": "Product",
+            "thin": "design"
+          }
+        ],
+        "typography": {
+          "name": "Poppins",
+          "family": "Open Sans"
+        },
+        "colorPalette": [
+          "#959772",
+          "#02C39A",
+          "#00A896"
+        ]
       }
     }
   }
