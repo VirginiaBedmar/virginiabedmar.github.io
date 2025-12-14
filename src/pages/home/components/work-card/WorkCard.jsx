@@ -46,7 +46,7 @@ export default ({project, onProjectSelect}) => {
                         <li key={key} className={`badge-${technology.toLowerCase()}`}>{technology}</li>)}
                 </ul>
                 <hr/>
-                <p>{project.resume}</p>
+                <p>{project.detail.resume.title}</p>
             </div>
         </div>
     )
