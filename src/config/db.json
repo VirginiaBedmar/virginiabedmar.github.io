@@ -67,21 +67,21 @@
         "summary": "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación. Su objetivo es mejorar la calidad de vida y reducir el impacto de estas enfermedades, cada vez más comunes en la sociedad actual.",
         "tags": [
           "2025",
-          "Web Design",
+          "Mobile Design",
           "Figma",
           "UX/UI",
           "Design Thinking",
-          "Individual",
+          "Colaborativo",
           "Design System",
           "Prototyping"
         ],
         "features": [
           {
-            "high": "+4",
+            "high": "+13",
             "thin": "pantallas"
           },
           {
-            "high": "15",
+            "high": "30",
             "thin": "días"
           },
           {
@@ -98,9 +98,9 @@
           "family": "Poppins"
         },
         "colorPalette": [
-          "#959772",
-          "#02C39A",
-          "#00A896"
+          "#3E1702",
+          "#CB9874",
+          "#779555"
         ]
       }
     }
@@ -120,7 +120,7 @@
         "summary": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida. Combina escaneo con IA, rutas personalizadas y coleccionables digitales para conectar a las personas con la cultura de su entorno.",
         "tags": [
           "2025",
-          "Web Design",
+          "Mobile Design",
           "Figma",
           "UX/UI",
           "Design Thinking",
@@ -130,11 +130,11 @@
         ],
         "features": [
           {
-            "high": "+4",
+            "high": "+15",
             "thin": "pantallas"
           },
           {
-            "high": "15",
+            "high": "40",
             "thin": "días"
           },
           {
@@ -151,9 +151,9 @@
           "family": "Poppins"
         },
         "colorPalette": [
-          "#959772",
-          "#02C39A",
-          "#00A896"
+          "#FFFFFF",
+          "#373861",
+          "#F1E3F3"
         ]
       }
     }
