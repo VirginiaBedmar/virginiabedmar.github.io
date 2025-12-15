@@ -16,6 +16,13 @@
             flex-direction: column;
             gap: 1.75rem;
             width: 50%;
+            transform: translateY(8rem);
+            opacity: 0;
+            transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+            &.on-screen {
+                transform: translateY(0);
+                opacity: 1;
+            }
             li {
                 .enumerated-title {
                     color: $text-primary-color;
@@ -33,6 +40,13 @@
         }
         div {
             width: 50%;
+            transform: translateY(-8rem);
+            opacity: 0;
+            transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+            &.on-screen {
+                transform: translateY(0);
+                opacity: 1;
+            }
             h2 {
                 color: $text-primary-color;
                 font-size: 3.5rem;

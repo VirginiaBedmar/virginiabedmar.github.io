@@ -8,7 +8,7 @@ export default ({project}) => {
         <div id="project" className="container">
             <Header project={project}/>
             <Resume project={project}/>
-            {/*<Problem project={project}/>*/}
+            <Problem project={project}/>
         </div>
     )
 };

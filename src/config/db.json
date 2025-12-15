@@ -1,21 +1,21 @@
 [
   {
-    "slug": "aventra",
-    "img": "/assets/projects/aventra/aventra-main.png",
-    "name": "Aventra",
-    "technologies": ["Web", "Responsive", "IA"],
-    "logo": "/assets/projects/aventra/logo.png",
+    "slug": "arteo",
+    "img": "/assets/projects/arteo/arteo-main.png",
+    "name": "Arteo",
+    "technologies": ["Mobile", "IA"],
+    "logo": "/assets/projects/arteo/logo.png",
     "detail": {
       "header": {
-        "subtitle": "Porque viajar debería ser tan fácil como soñar.",
-        "video": "/assets/projects/aventra/intro.mp4"
+        "subtitle": "Descubrir el patrimonio que nos rodea nunca fue tan divertido.",
+        "video": "/assets/projects/arteo/intro.mp4"
       },
       "resume": {
-        "title": "Plataforma web que centraliza la planificación, reserva y organización de viajes impulsada por la IA.",
-        "summary": "Plataforma web que centraliza la planificación, reserva y organización de viajes, integrando alojamientos, transporte y actividades en un solo lugar con ayuda de IA. Su objetivo es reducir el estrés y la desorganización del viajero, mejorando la experiencia y apoyando a negocios locales.",
+        "title": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida.",
+        "summary": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida. Combina escaneo con IA, rutas personalizadas y coleccionables digitales para conectar a las personas con la cultura de su entorno.",
         "tags": [
           "2025",
-          "Web Design",
+          "Mobile Design",
           "Figma",
           "UX/UI",
           "Design Thinking",
@@ -25,11 +25,11 @@
         ],
         "features": [
           {
-            "high": "+4",
+            "high": "+15",
             "thin": "pantallas"
           },
           {
-            "high": "15",
+            "high": "40",
             "thin": "días"
           },
           {
@@ -46,9 +46,32 @@
           "family": "Poppins"
         },
         "colorPalette": [
-          "#959772",
-          "#02C39A",
-          "#00A896"
+          "#FFFFFF",
+          "#373861",
+          "#F1E3F3"
+        ]
+      },
+      "problem": {
+        "highlightedItems": [
+          {
+            "emoji": "\uD83D\uDC8E",
+            "title": "Desaprovechamiento del potencial",
+            "text": "Arte urbano como recurso cultural, educativo y turístico."
+          },
+          {
+            "emoji": "\uD83D\uDD07",
+            "title": "Falta de información",
+            "text": "Información accesible y verificada sobre las obras que se encuentran en el entorno urbano."
+          },
+          {
+            "emoji": "\uD83E\uDD71",
+            "title": "Pérdida de interés en cultura",
+            "text": "Debido a la complejidad de las webs o apps actuales (poco intuitivas y desorganizadas)."
+          }
+        ],
+        "textParagraphs": [
+          "Descubrir y entender el arte urbano o el patrimonio local sigue siendo una experiencia fragmentada y poco accesible.",
+          "La desconexión entre el espacio urbano, la tecnología y la información cultural genera frustración y desaprovecha el enorme potencial educativo y turístico del arte en las ciudades."
         ]
       }
     }
@@ -104,26 +127,49 @@
           "#CB9874",
           "#779555"
         ]
+      },
+      "problem": {
+        "highlightedItems": [
+          {
+            "emoji": "\uD83E\uDEE9",
+            "title": "Altas tasas de ansiedad y depresión",
+            "text": "Altas tasas de ansiedad (16%) y depresión (17%), de las más elevadas en Europa."
+          },
+          {
+            "emoji": "\uD83D\uDC65",
+            "title": "Vulnerabilidad en jóvenes",
+            "text": "Jóvenes especialmente vulnerables: 60% reporta problemas psicológicos."
+          },
+          {
+            "emoji": "\uD83E\uDD26\u200D♀\uFE0F",
+            "title": "Impacto negativo general",
+            "text": "Principalmente la reducción del bienestar, productividad y calidad de vida."
+          }
+        ],
+        "textParagraphs": [
+          "La salud mental en España y el mundo se ha visto gravemente afectada por factores sociales, económicos y digitales.",
+            "El estrés y la ansiedad son problemas crecientes que afectan a una parte significativa de la población, impactando negativamente en su bienestar y calidad de vida."
+        ]
       }
     }
   },
   {
-    "slug": "arteo",
-    "img": "/assets/projects/arteo/arteo-main.png",
-    "name": "Arteo",
-    "technologies": ["Mobile", "IA"],
-    "logo": "/assets/projects/arteo/logo.png",
+    "slug": "aventra",
+    "img": "/assets/projects/aventra/aventra-main.png",
+    "name": "Aventra",
+    "technologies": ["Web", "Responsive", "IA"],
+    "logo": "/assets/projects/aventra/logo.png",
     "detail": {
       "header": {
-        "subtitle": "Descubrir el patrimonio que nos rodea nunca fue tan divertido.",
-        "video": "/assets/projects/arteo/intro.mp4"
+        "subtitle": "Porque viajar debería ser tan fácil como soñar.",
+        "video": "/assets/projects/aventra/intro.mp4"
       },
       "resume": {
-        "title": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida.",
-        "summary": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida. Combina escaneo con IA, rutas personalizadas y coleccionables digitales para conectar a las personas con la cultura de su entorno.",
+        "title": "Plataforma web que centraliza la planificación, reserva y organización de viajes impulsada por la IA.",
+        "summary": "Plataforma web que centraliza la planificación, reserva y organización de viajes, integrando alojamientos, transporte y actividades en un solo lugar con ayuda de IA. Su objetivo es reducir el estrés y la desorganización del viajero, mejorando la experiencia y apoyando a negocios locales.",
         "tags": [
           "2025",
-          "Mobile Design",
+          "Web Design",
           "Figma",
           "UX/UI",
           "Design Thinking",
@@ -133,11 +179,11 @@
         ],
         "features": [
           {
-            "high": "+15",
+            "high": "+4",
             "thin": "pantallas"
           },
           {
-            "high": "40",
+            "high": "15",
             "thin": "días"
           },
           {
@@ -154,9 +200,32 @@
           "family": "Poppins"
         },
         "colorPalette": [
-          "#FFFFFF",
-          "#373861",
-          "#F1E3F3"
+          "#959772",
+          "#02C39A",
+          "#00A896"
+        ]
+      },
+      "problem": {
+        "highlightedItems": [
+          {
+            "emoji": "⛓\uFE0F\u200D\uD83D\uDCA5",
+            "title": "Fragmentación y fricción",
+            "text": "Excesiva fragmentación y fricción en la planificación de viajes."
+          },
+          {
+            "emoji": "\uD83D\uDE47\u200D♂\uFE0F",
+            "title": "Desorganización y estrés",
+            "text": "Pérdida de tiempo, estrés y confusión a la hora de buscar la información."
+          },
+          {
+            "emoji": "\uD83C\uDFEA",
+            "title": "Exposición limitada a negocios locales",
+            "text": "Limitada exposición a experiencias locales y pequeños negocios."
+          }
+        ],
+        "textParagraphs": [
+          "La planificación de viajes sigue siendo un proceso fragmentado y estresante, que requiere el uso de múltiples plataformas y herramientas.",
+          "Esta fragmentación genera desorganización, pérdida de tiempo y una experiencia de usuario deficiente, afectando negativamente la percepción del viaje desde su inicio."
         ]
       }
     }

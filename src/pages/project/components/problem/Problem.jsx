@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Problem.scss";
+import "./Problem.responsive.scss";
 
 export default ({project}) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -29,24 +30,23 @@ export default ({project}) => {
     return (
         <div id="project-problem" className="full-height" ref={elementRef}>
             <div className="problem-content">
-                <ul>
-                    <li>
-                        <span className="enumerated-title">😞 1 in 10 women affected</span>
-                        <p>That’s over 200 million women living with symptoms that impact physical, mental, and reproductive health.</p>
-                    </li>
-                    <li>
-                        <span className="enumerated-title">🚧 70% of women with PCOS go undiagnosed.</span>
-                        <p>This leads to years of unmanaged symptoms, emotional distress, and long-term health risks.</p>
-                    </li>
-                    <li>
-                        <span className="enumerated-title">🛑 80% report emotional &  mental health struggles.</span>
-                        <p>Anxiety, depression, and low self-esteem are common yet often overlooked in treatment plans.</p>
-                    </li>
+                <ul className={`${isVisible ? 'on-screen' : ''}`}>
+                    {
+                        project.detail.problem.highlightedItems.map((item, index) => (
+                            <li key={index}>
+                                <span className="enumerated-title">{item.emoji} {item.title}</span>
+                                <p>{item.text}</p>
+                            </li>
+                        ))
+                    }
                 </ul>
-                <div>
-                    <h2 className={`${isVisible ? 'on-screen' : ''}`}>El Problema</h2>
-                    <p className={`problem-summary ${isVisible ? 'on-screen' : ''}`}>Over 200 million women worldwide struggle with PCOS facing not only physical symptoms but also mental and emotional strain.</p>
-                    <p className={`problem-summary ${isVisible ? 'on-screen' : ''}`}>Support is often generic, fragmented, and impersonal, leaving women to navigate their health alone.</p>
+                <div className={`${isVisible ? 'on-screen' : ''}`}>
+                    <h2>El Problema</h2>
+                    {
+                        project.detail.problem.textParagraphs.map((paragraph, index) => (
+                            <p key={index} className="problem-summary">{paragraph}</p>
+                        ))
+                    }
                 </div>
             </div>
         </div>

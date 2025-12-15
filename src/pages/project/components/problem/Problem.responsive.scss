@@ -1,0 +1,81 @@
+@media (max-width: 1024px) {
+    #project-problem {
+        .problem-content {
+            ul {
+                li {
+                    .enumerated-title {
+                        font-size: 1.2rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            div {
+                h2 {
+                    font-size: 2.4rem;
+                }
+                p.problem-summary {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 858px) {
+    #project-problem {
+        margin: 314px 0 0;
+        .problem-content {
+            flex-direction: column-reverse;
+            ul {
+                width: 100%;
+            }
+            div {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 676px) {
+    #project-problem {
+        margin: 442px 0 0;
+    }
+}
+
+@media (max-width: 673px) {
+    #project-problem {
+        margin: 502px 0 0;
+    }
+}
+
+@media (max-width: 468px) {
+    #project-problem {
+        margin: 552px 0 0;
+    }
+}
+
+@media (max-width: 458px) {
+    #project-problem {
+        margin: 752px 0 0;
+    }
+}
+
+@media (max-width: 440px) {
+    #project-problem {
+        margin: 852px 0 0;
+    }
+}
+
+@media (max-width: 340px) {
+    #project-problem {
+        margin: 952px 0 0;
+    }
+}
+
+@media (max-width: 321px) {
+    #project-problem {
+        margin: 1000px 0 0;
+    }
+}
