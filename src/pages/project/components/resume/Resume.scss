@@ -9,17 +9,38 @@
         font-size: 1.5rem;
         color: $text-primary-color;
         font-family: "Ubuntu", sans-serif;
+        transform: translateY(-8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
     }
     p.summary {
         margin-top: 1.4rem;
         font-size: 16px;
         color: $text-secondary-color;
         line-height: 1.5;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .35s ease-in-out, transform .35s ease-in-out;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
     }
     .details {
         display: flex;
         width: 100%;
         margin-top: 5.4rem;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out .4s, transform .3s ease-in-out .4s;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
 
         & > div:nth-child(1), & > div:nth-child(2) {
             width: 50%;
@@ -106,6 +127,10 @@
                     text-align: right;
                     padding: 0.7rem 0.7rem;
                     border-radius: 1.5rem;
+                    transition: min-height ease-in-out .2s;
+                    &:hover {
+                        min-height: 8.3rem;
+                    }
                     span {
                         background-color: $text-primary-color;
                         color: $hr-color;

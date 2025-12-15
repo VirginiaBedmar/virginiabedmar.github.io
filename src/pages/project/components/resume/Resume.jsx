@@ -1,13 +1,37 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Resume.scss";
 import "./Resume.responsive.scss";
 
 export default ({project}) => {
+    const [isVisible, setIsVisible] = useState(false);
+    const elementRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                }
+            },
+            { threshold: 0.1 }
+        );
+
+        if (elementRef.current) {
+            observer.observe(elementRef.current);
+        }
+
+        return () => {
+            if (elementRef.current) {
+                observer.unobserve(elementRef.current);
+            }
+        };
+    }, []);
+
     return (
-        <div id="resume" className="full-height">
-            <h2>{project.detail.resume.title}</h2>
-            <p className="summary">{project.detail.resume.summary}</p>
-            <div className="details">
+        <div id="resume" className="full-height" ref={elementRef}>
+            <h2 className={`${isVisible ? 'on-screen' : ''}`}>{project.detail.resume.title}</h2>
+            <p className={`summary ${isVisible ? 'on-screen' : ''}`}>{project.detail.resume.summary}</p>
+            <div className={`details ${isVisible ? 'on-screen' : ''}`}>
                 <div>
                     <ul className="tags">
                         {
