@@ -73,6 +73,10 @@
           "Descubrir y entender el arte urbano o el patrimonio local sigue siendo una experiencia fragmentada y poco accesible.",
           "La desconexión entre el espacio urbano, la tecnología y la información cultural genera frustración y desaprovecha el enorme potencial educativo y turístico del arte en las ciudades."
         ]
+      },
+      "solution": {
+        "text": "Una app móvil que utiliza IA para escanear y reconocer obras de arte urbano, proporcionando información accesible y rutas personalizadas para explorar el patrimonio local de manera divertida e interactiva.",
+        "video": "/assets/projects/arteo/solution.mp4"
       }
     }
   },
@@ -150,6 +154,10 @@
           "La salud mental en España y el mundo se ha visto gravemente afectada por factores sociales, económicos y digitales.",
             "El estrés y la ansiedad son problemas crecientes que afectan a una parte significativa de la población, impactando negativamente en su bienestar y calidad de vida."
         ]
+      },
+      "solution": {
+        "text": "Una app móvil que ofrece herramientas y recursos personalizados para gestionar el estrés y la ansiedad, incluyendo técnicas de relajación, seguimiento del estado emocional y acceso a información confiable sobre salud mental.",
+        "video": "/assets/projects/mentalizt/solution.mp4"
       }
     }
   },
@@ -227,6 +235,10 @@
           "La planificación de viajes sigue siendo un proceso fragmentado y estresante, que requiere el uso de múltiples plataformas y herramientas.",
           "Esta fragmentación genera desorganización, pérdida de tiempo y una experiencia de usuario deficiente, afectando negativamente la percepción del viaje desde su inicio."
         ]
+      },
+      "solution": {
+        "text": "Una plataforma web integral que centraliza la planificación, reserva y organización de viajes, utilizando IA para personalizar recomendaciones y optimizar itinerarios, mejorando la experiencia del usuario y apoyando a negocios locales.",
+        "video": "/assets/projects/aventra/solution.mp4"
       }
     }
   }

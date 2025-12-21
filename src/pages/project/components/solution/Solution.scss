@@ -1,0 +1,49 @@
+@import "../../../../Colors.scss";
+
+#project-solution {
+    margin: 244px 0 128px;
+    h2 {
+        color: $text-primary-color;
+        font-size: 3.5rem;
+        margin: 0 0 1.5rem;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    p.solution-content {
+        margin-top: 1.4rem;
+        font-size: 1.45rem;
+        color: $text-secondary-color;
+        line-height: 1.5;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out .2s, transform .3s ease-in-out .2s;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .media-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 3rem 0 0;
+        transform: translateY(8rem);
+        opacity: 0;
+        transition: opacity .3s ease-in-out .4s, transform .3s ease-in-out .4s;
+        &.on-screen {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        video {
+            width: auto;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

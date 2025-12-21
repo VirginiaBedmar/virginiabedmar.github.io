@@ -18,7 +18,7 @@
             width: 50%;
             transform: translateY(8rem);
             opacity: 0;
-            transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+            transition: opacity .3s ease-in-out .4s, transform .3s ease-in-out .4s;
             &.on-screen {
                 transform: translateY(0);
                 opacity: 1;
@@ -42,7 +42,7 @@
             width: 50%;
             transform: translateY(-8rem);
             opacity: 0;
-            transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+            transition: opacity .3s ease-in-out .4s, transform .3s ease-in-out .4s;
             &.on-screen {
                 transform: translateY(0);
                 opacity: 1;

@@ -28,7 +28,7 @@ export default ({project}) => {
     }, []);
 
     return (
-        <div id="project-problem" className="full-height" ref={elementRef}>
+        <div id="project-problem" ref={elementRef}>
             <div className="problem-content">
                 <ul className={`${isVisible ? 'on-screen' : ''}`}>
                     {

@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    #project-solution {
+        h2 {
+            font-size: 2.4rem;
+        }
+        p.solution-content {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 856px) {
+    #project-solution {
+        margin: 130px 0 64px;
+    }
+}
