@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Research.scss";
+import "./Research.responsive.scss";
 
 export default ({project}) => {
     const [isVisible, setIsVisible] = useState(false);
