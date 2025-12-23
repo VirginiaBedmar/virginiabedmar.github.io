@@ -77,6 +77,32 @@
       "solution": {
         "text": "Una app móvil que utiliza IA para escanear y reconocer obras de arte urbano, proporcionando información accesible y rutas personalizadas para explorar el patrimonio local de manera divertida e interactiva.",
         "video": "/assets/projects/arteo/solution.mp4"
+      },
+      "research": {
+        "objetivos": [
+          {
+            "title": "Promover la difusión cultural",
+            "text": "Conexión con la comunidad mediante el descubrimiento colaborativo de obras urbanas"
+          },
+          {
+            "title": "Facilitar el acceso a la información",
+            "text": "Información verificada sobre obras artísticas mediante un escáner inteligente"
+          },
+          {
+            "title": "Herramienta que genere interés",
+            "text": "Combinar diferentes funciones para fomentar la participación y el aprendizaje"
+          }
+        ],
+        "metodología": [
+          {
+            "title": "Design Thinking",
+            "text": "Para el desarrollo de Arteo se ha utilizado la metodología Design Thinking, centrada en las personas y en la comprensión profunda de sus necesidades reales. Este enfoque nos ha permitido empatizar con los usuarios, identificar problemas clave y generar soluciones innovadoras y viables que mejoren su experiencia cultural."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ]
       }
     }
   },
