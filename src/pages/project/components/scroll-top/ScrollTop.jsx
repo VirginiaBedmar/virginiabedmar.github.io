@@ -7,22 +7,45 @@ export default () => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
+        const modalElement = document.getElementById('project-modal');
+        const scrollContainer = modalElement || window;
+
         const handleScroll = () => {
-            if (window.scrollY > window.innerHeight) {
+            let scrollY, innerHeight;
+
+            if (modalElement) {
+                scrollY = modalElement.scrollTop;
+                innerHeight = modalElement.clientHeight;
+            } else {
+                scrollY = window.scrollY;
+                innerHeight = window.innerHeight;
+            }
+
+            if (scrollY > innerHeight) {
                 setIsVisible(true);
             } else {
                 setIsVisible(false);
             }
         };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        scrollContainer.addEventListener('scroll', handleScroll);
+        return () => scrollContainer.removeEventListener('scroll', handleScroll);
     }, []);
+
+    const scrollToTop = () => {
+        const modalElement = document.getElementById('project-modal');
+
+        if (modalElement) {
+            modalElement.scrollTo({top: 0, behavior: 'smooth'});
+        } else {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    };
 
     return (
         <button
             id="scroll-top"
-            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+            onClick={scrollToTop}
             style={{ display: isVisible ? 'block' : 'none' }}
         >
             <FontAwesomeIcon icon={faAngleUp}/>

@@ -15,7 +15,7 @@ export default ({project}) => {
                     setIsVisible(true);
                 }
             },
-            { threshold: 0.05 }
+            { threshold: 0.01 }
         );
 
         if (elementRef.current) {
