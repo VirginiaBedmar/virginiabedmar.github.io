@@ -8,7 +8,7 @@
     "detail": {
       "header": {
         "subtitle": "Descubrir el patrimonio que nos rodea nunca fue tan divertido.",
-        "video": "/assets/projects/arteo/intro.mp4"
+        "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/arteo-intro.mp4"
       },
       "resume": {
         "title": "App que facilita descubrir arte urbano y patrimonio local de forma accesible y divertida.",
@@ -76,7 +76,7 @@
       },
       "solution": {
         "text": "Una app móvil que utiliza IA para escanear y reconocer obras de arte urbano, proporcionando información accesible y rutas personalizadas para explorar el patrimonio local de manera divertida e interactiva.",
-        "video": "/assets/projects/arteo/solution.mp4"
+        "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/arteo-solution.mp4"
       },
       "research": {
         "objetivos": [
@@ -262,7 +262,7 @@
     "detail": {
       "header": {
         "subtitle": "Gestiona tu estrés de forma eficaz y con herramientas.",
-        "video": "/assets/projects/mentalizt/intro.mp4"
+        "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/mentalizt-intro.mp4"
       },
       "resume": {
         "title": "Herramienta digital para gestionar el estrés y la ansiedad, ofreciendo apoyo, información y recursos de recuperación.",
@@ -330,7 +330,7 @@
       },
       "solution": {
         "text": "Una app móvil que ofrece herramientas y recursos personalizados para gestionar el estrés y la ansiedad, incluyendo técnicas de relajación, seguimiento del estado emocional y acceso a información confiable sobre salud mental.",
-        "video": "/assets/projects/mentalizt/solution.mp4"
+        "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/mentalizt-solution.mp4"
       }
     }
   },
@@ -343,7 +343,7 @@
     "detail": {
       "header": {
         "subtitle": "Porque viajar debería ser tan fácil como soñar.",
-        "video": "/assets/projects/aventra/intro.mp4"
+        "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/aventra-intro.mp4"
       },
       "resume": {
         "title": "Plataforma web que centraliza la planificación, reserva y organización de viajes impulsada por la IA.",
@@ -411,7 +411,7 @@
       },
       "solution": {
         "text": "Una plataforma web integral que centraliza la planificación, reserva y organización de viajes, utilizando IA para personalizar recomendaciones y optimizar itinerarios, mejorando la experiencia del usuario y apoyando a negocios locales.",
-        "video": "/assets/projects/aventra/solution.mp4"
+        "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/mentalizt-solution.mp4"
       }
     }
   }
