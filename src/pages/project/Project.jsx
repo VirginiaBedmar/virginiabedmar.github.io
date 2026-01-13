@@ -4,6 +4,7 @@ import Resume from "./components/resume/Resume";
 import Problem from "./components/problem/Problem";
 import Solution from "./components/solution/Solution";
 import Research from "./components/research/Research";
+import ScrollTop from "./components/scroll-top/ScrollTop";
 
 export default ({project}) => {
     return (
@@ -13,6 +14,7 @@ export default ({project}) => {
             <Problem project={project}/>
             <Solution project={project}/>
             <Research project={project}/>
+            <ScrollTop/>
         </div>
     )
 };
