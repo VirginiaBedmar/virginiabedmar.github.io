@@ -331,6 +331,171 @@
       "solution": {
         "text": "Una app móvil que ofrece herramientas y recursos personalizados para gestionar el estrés y la ansiedad, incluyendo técnicas de relajación, seguimiento del estado emocional y acceso a información confiable sobre salud mental.",
         "video": "/assets/projects/mentalizt/solution.mp4"
+      },
+      "research": {
+        "objetivos": [
+          {
+            "title": "Comprender causas y efectos del estrés según distintos perfiles",
+            "text": "Explicaciones y espacios donde poder ofrecer información y ayuda al usuario"
+          },
+          {
+            "title": "Incorporar hábitos y soluciones prácticas en la vida diaria",
+            "text": "Herramientas de control y bajada de niveles de estrés y ansiedad en tiempo real"
+          },
+          {
+            "title": "Crear una experiencia digital intuitiva, atractiva y motivadora",
+            "text": "Combinar diferentes funcionalidades para fomentar la concienciación sobre el estrés y la ansiedad"
+          }
+        ],
+        "Roles": [
+          {
+            "title": "Proyecto realizado en un entorno colaborativo",
+            "text": "Asumí un rol de liderazgo orgánico y colaborativo, trabajando de forma transversal con el equipo. A lo largo del proyecto nos apoyamos mutuamente, aportando ideas y proponiendo soluciones conforme surgían los retos. Además, uno de los días lideré la sesión de trabajo del equipo, facilitando la toma de decisiones y alineando los esfuerzos para avanzar de forma conjunta en la definición y construcción del producto, organizando y gestionando la partición de tareas e interviniendo en aquellas en las que fue necesario."
+          }
+        ],
+        "Metodología": [
+          {
+            "title": "Realizamos este proyecto grupal con la metodología Design Sprint",
+            "text": "Nos enfocamos en esta metodología para poder sacar un MVP en el menor tiempo posible, con una duración de 5 días dedicando cada día a una fase o etapa."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/designsprint.png",
+            "alt": "Metodología Design Sprint"
+          }
+        ],
+        "HMW?": [
+          {
+            "title": "Comenzamos haciéndonos preguntas con How Might We?",
+            "text": "Con esta herramienta hicimos propusimos mejoras o funcionalidades importantes para solucionar el problema. De todas las propuestas validamos tres como más relevantes. Accesibilidad y soporte profesional, concienciación y acompañamiento y Respuesta inmediata ante crisis."
+          }
+        ],
+        "User Personas y Journey map": [
+          {
+            "title": "Definimos y comprendemos a nuestro usuario",
+            "text": "A través de la creación de personas de usuario y un customer journey, conseguimos comprender mejor quiénes eran nuestros usuarios, sus motivaciones, frustraciones y necesidades. Estas herramientas nos ayudaron a identificar los momentos críticos de interacción, detectar oportunidades de mejora y priorizar los flujos clave para el prototipo, asegurando que la experiencia del producto respondiera de manera efectiva a sus expectativas."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Journey map": [
+          {
+            "title": "Mediante el journey de Raquel, podemos ver los momentos determinantes de su experiencia con ARTeo"
+          },
+          {
+            "title": "Momento de la verdad",
+            "text": "Debido a su curiosidad por las obras de arte que se encuentran en las calles, se descarga la aplicación y comienza a navegar por ella, descubre lo intuitiva y sencilla que es de usar."
+          },
+          {
+            "title": "Momento WOW",
+            "text": "Al comenzar a usar la app vió una obra de arte que que siempre le produjo mucho interés pero nunca encontró nada fiable y al momento le aparece información cultural consistente sobre todo lo referente a esta."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Ajuste producto-mercado": [
+          {
+            "title": "Para quién está diseñada y que impacto que genera ARTeo",
+            "text": "Una vez realizado el recorrido de Raquel y ayudarnos de herramientas como Business Model Canvas y Value Proposition Canvas, pudimos combinar los conceptos clave con la propuesta de valor de ARteo. ARTeo es una app cultural que combina escaneo con IA, rutas personalizadas y gamificación para descubrir arte urbano y patrimonio de forma sencilla y fiable. A través de una experiencia intuitiva, accesible y comunitaria, permite aprender, explorar y compartir hallazgos culturales auténticos sin perder tiempo ni depender de fuentes poco fiables."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Ideación": [
+          {
+            "title": "Tras determinar la propuesta de valor de ARTeo",
+            "text": "Analizamos mediante la metodología Point Of View (POV) todo el producto, definiendo de manera clara y concreta las necesidades y problemas de los usuarios desde su perspectiva, combinando insights y hallazgos del research, guiándo así la generación de ideas enfocadas en soluciones relevantes y significativas para el usuario."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Priorización": [
+          {
+            "title": "Una vez definidas las posibles mejoras en la ideación",
+            "text": "Organizamos y gestionamos mediante el método MOSCOW las funcionalidades de ARTeo, diferenciando entre las funcionalidades más necesarias y las que podían añadirse posteriormente. Este método nos facilitó la toma de decisiones, asegurándonos que el desarrollo de ARTeo se enfocase principalmente en lo más valioso para los usuarios y para la propia app. "
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Card Sorting & AI": [
+          {
+            "title": "Después de organizar las funcionalidades más relevantes",
+            "text": "Mediante la técnica de Card Sorting, realizamos la clasificación de la estructura y navegación de ARTeo. Con esto nos aseguramos una navegabilidad coherente, sencilla y satisfactoria para el usuario."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Wireframes": [
+          {
+            "title": "Tras realizar la estructura jerárquica y organizativa",
+            "text": "Nos dispusimos a crear y diseñar wireframes de baja y media fidelidad. Con estos bocetos previos, pudimos definir claramente la estructura visual, así como validar la organización, antes de introducirnos de lleno en el diseño en alta fidelidad."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Identidad visual": [
+          {
+            "title": "Construimos nuestra Identidad Visual acorde a aquello que queremos transmitir: aprendizaje y entretenimiento",
+            "text": "Nos decantamos por una paleta de colores ciertamente sobria pero con contrastes, una tipografía moderna y facilmente reconocible, además del diseño de un logotipo simple pero directo y equilibrado."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Design System": [
+          {
+            "title": "Al determinar la identidad visual, construimos un Design System escalable con los elementos relevantes",
+            "text": "Introdujimos dentro de ese Sistema de diseño colores, tipografía y componentes basados en la metodología de Atomic Design. Esta metodología nos aportó estructura y coherencia en el diseño, ya que nos facilitó la rápida iteración, permitiéndonos adaptar la interfaz a diferentes estados, resoluciones y contextos de uso."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "UI": [
+          {
+            "title": "Diseñamos más de 40 pantallas de alta fidelidad",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Testing": [
+          {
+            "title": "Al finalizar el diseño en alta fidelidad, realizamos una serie de testings a usuarios para valorar ARTeo",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Futuribles": [
+          {
+            "title": "Diseñamos más de 40 pantallas de alta fidelidad",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ]
       }
     }
   },
@@ -412,6 +577,191 @@
       "solution": {
         "text": "Una plataforma web integral que centraliza la planificación, reserva y organización de viajes, utilizando IA para personalizar recomendaciones y optimizar itinerarios, mejorando la experiencia del usuario y apoyando a negocios locales.",
         "video": "/assets/projects/aventra/solution.mp4"
+      },
+      "research": {
+        "objetivos": [
+          {
+            "title": "Promover la difusión cultural",
+            "text": "Conexión con la comunidad mediante el descubrimiento colaborativo de obras urbanas."
+          },
+          {
+            "title": "Facilitar el acceso a la información",
+            "text": "Información verificada sobre obras artísticas mediante un escáner inteligente."
+          },
+          {
+            "title": "Herramienta que genere interés",
+            "text": "Combinar diferentes funciones para fomentar la participación y el aprendizaje."
+          }
+        ],
+        "Benchmark & DAFO": [
+          {
+            "title": "Competencia directa de ARTeo",
+            "text": "Aplicaciones como Smartify o Street Art Cities, centrándose en el escáner de obras de arte. Como competencia indirecta tenemos Google Lens, centrado en el escáner de imágenes."
+          },
+          {
+            "title": "Conclusiones de Benchmark",
+            "text": "Tres puntos clave diferenciadores: Comunidad de interacción, rutas personalizadas por geolocalización y gamificación y coleccionables."
+          },
+          {
+            "image": "/assets/projects/arteo/research/benchmark.png",
+            "alt": "Benchmark"
+          },
+          {
+            "title": "DAFO",
+            "text": "Una vez finalizado el Benchmark se realizó un análisis DAFO para poder reconocer y determinar oportunidades en función de las previas votaciones del equipo."
+          }
+        ],
+        "Encuestas & Entrevistas": [
+          {
+            "title": "Nuestro estudio estratégico puso en evidencia carencias importantes en las soluciones existentes, así como áreas de alto potencial para ARTeo",
+            "text": "Para contrastar y ordenar estas oportunidades, lo reforzamos con una investigación cuantitativa a usuarios."
+          },
+          {
+            "title": "Insights obtenidos",
+            "text": "·Más del 50% no encuentra información cultural accesible ·Buscan una app sencilla e intuitiva, sin fricción ni complejidad técnica ·Alto interés en rutas culturales personalizadas y coleccionables como elemento motivador ·El principal valor está en aprender y descubrir nuevas obras de arte en la calle"
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Usuarios": [
+          {
+            "title": "A partir de los resultados de la encuesta y las entrevistas",
+            "text": "Identificamos información clave que nos permitió crear user personas definidas y claras."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Mapa de empatía": [
+          {
+            "title": "Tras determinar los user personas",
+            "text": "Elaboramos un mapa de empatía que nos permitiese entender con exactitud las motivaciones reales de los usuarios. El análisis nos reveló que priorizan el acceso inmediato y fiable a la información, antes que la camtidad de esta, insistiendo en el enriquecimiento mediante las experiencias culturales auténticas y la posibilidad de compartir los descubrimientos con la comunidad."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Journey map": [
+          {
+            "title": "Mediante el journey de Raquel, podemos ver los momentos determinantes de su experiencia con ARTeo"
+          },
+          {
+            "title": "Momento de la verdad",
+            "text": "Debido a su curiosidad por las obras de arte que se encuentran en las calles, se descarga la aplicación y comienza a navegar por ella, descubre lo intuitiva y sencilla que es de usar."
+          },
+          {
+            "title": "Momento WOW",
+            "text": "Al comenzar a usar la app vió una obra de arte que que siempre le produjo mucho interés pero nunca encontró nada fiable y al momento le aparece información cultural consistente sobre todo lo referente a esta."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Ajuste producto-mercado": [
+          {
+            "title": "Para quién está diseñada y que impacto que genera ARTeo",
+            "text": "Una vez realizado el recorrido de Raquel y ayudarnos de herramientas como Business Model Canvas y Value Proposition Canvas, pudimos combinar los conceptos clave con la propuesta de valor de ARteo. ARTeo es una app cultural que combina escaneo con IA, rutas personalizadas y gamificación para descubrir arte urbano y patrimonio de forma sencilla y fiable. A través de una experiencia intuitiva, accesible y comunitaria, permite aprender, explorar y compartir hallazgos culturales auténticos sin perder tiempo ni depender de fuentes poco fiables."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Ideación": [
+          {
+            "title": "Tras determinar la propuesta de valor de ARTeo",
+            "text": "Analizamos mediante la metodología Point Of View (POV) todo el producto, definiendo de manera clara y concreta las necesidades y problemas de los usuarios desde su perspectiva, combinando insights y hallazgos del research, guiándo así la generación de ideas enfocadas en soluciones relevantes y significativas para el usuario."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Priorización": [
+          {
+            "title": "Una vez definidas las posibles mejoras en la ideación",
+            "text": "Organizamos y gestionamos mediante el método MOSCOW las funcionalidades de ARTeo, diferenciando entre las funcionalidades más necesarias y las que podían añadirse posteriormente. Este método nos facilitó la toma de decisiones, asegurándonos que el desarrollo de ARTeo se enfocase principalmente en lo más valioso para los usuarios y para la propia app. "
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Card Sorting & AI": [
+          {
+            "title": "Después de organizar las funcionalidades más relevantes",
+            "text": "Mediante la técnica de Card Sorting, realizamos la clasificación de la estructura y navegación de ARTeo. Con esto nos aseguramos una navegabilidad coherente, sencilla y satisfactoria para el usuario."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Wireframes": [
+          {
+            "title": "Tras realizar la estructura jerárquica y organizativa",
+            "text": "Nos dispusimos a crear y diseñar wireframes de baja y media fidelidad. Con estos bocetos previos, pudimos definir claramente la estructura visual, así como validar la organización, antes de introducirnos de lleno en el diseño en alta fidelidad."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Identidad visual": [
+          {
+            "title": "Construimos nuestra Identidad Visual acorde a aquello que queremos transmitir: aprendizaje y entretenimiento",
+            "text": "Nos decantamos por una paleta de colores ciertamente sobria pero con contrastes, una tipografía moderna y facilmente reconocible, además del diseño de un logotipo simple pero directo y equilibrado."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Design System": [
+          {
+            "title": "Al determinar la identidad visual, construimos un Design System escalable con los elementos relevantes",
+            "text": "Introdujimos dentro de ese Sistema de diseño colores, tipografía y componentes basados en la metodología de Atomic Design. Esta metodología nos aportó estructura y coherencia en el diseño, ya que nos facilitó la rápida iteración, permitiéndonos adaptar la interfaz a diferentes estados, resoluciones y contextos de uso."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "UI": [
+          {
+            "title": "Diseñamos más de 40 pantallas de alta fidelidad",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Testing": [
+          {
+            "title": "Al finalizar el diseño en alta fidelidad, realizamos una serie de testings a usuarios para valorar ARTeo",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Futuribles": [
+          {
+            "title": "Diseñamos más de 40 pantallas de alta fidelidad",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app."
+          },
+          {
+            "image": "/assets/projects/placeholder.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ]
       }
     }
   }
