@@ -39,7 +39,7 @@ export default () => {
                     <h1>Virginia Bedmar.</h1>
                 </div>
                 <h2 className={`${isVisible ? 'on-screen' : ''}`}>
-                    <span className="text-highlight">Diseñadora Gráfica · UX/UI</span> malagueña especializada en la creación<br/>
+                    <span className="text-highlight">Diseñadora Gráfica · UX/UI</span> malagueña especializada en la creación <br/>
                     de experiencias digitales atractivas y funcionales.
                 </h2>
                 <ul className={`current-main-info ${isVisible ? 'on-screen' : ''}`}>

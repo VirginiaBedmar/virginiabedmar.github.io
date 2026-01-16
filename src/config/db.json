@@ -331,6 +331,120 @@
       "solution": {
         "text": "Una app móvil que ofrece herramientas y recursos personalizados para gestionar el estrés y la ansiedad, incluyendo técnicas de relajación, seguimiento del estado emocional y acceso a información confiable sobre salud mental.",
         "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/mentalizt-solution.mp4"
+      },
+      "research": {
+        "objetivos": [
+          {
+            "title": "Comprender causas y efectos del estrés según distintos perfiles",
+            "text": "Explicaciones y espacios donde poder ofrecer información y ayuda al usuario"
+          },
+          {
+            "title": "Incorporar hábitos y soluciones prácticas en la vida diaria",
+            "text": "Herramientas de control y bajada de niveles de estrés y ansiedad en tiempo real"
+          },
+          {
+            "title": "Crear una experiencia digital intuitiva, atractiva y motivadora",
+            "text": "Combinar diferentes funcionalidades para fomentar la concienciación sobre el estrés y la ansiedad"
+          }
+        ],
+        "Roles": [
+          {
+            "title": "Proyecto realizado en un entorno colaborativo",
+            "text": "Asumí un rol de liderazgo orgánico y colaborativo, trabajando de forma transversal con el equipo. A lo largo del proyecto nos apoyamos mutuamente, aportando ideas y proponiendo soluciones conforme surgían los retos. Además, uno de los días lideré la sesión de trabajo del equipo, facilitando la toma de decisiones y alineando los esfuerzos para avanzar de forma conjunta en la definición y construcción del producto, organizando y gestionando la partición de tareas e interviniendo en aquellas en las que fue necesario."
+          }
+        ],
+        "Metodología": [
+          {
+            "title": "Realizamos este proyecto grupal con la metodología Design Sprint",
+            "text": "Nos enfocamos en esta metodología para poder sacar un MVP en el menor tiempo posible, con una duración de 5 días dedicando cada día a una fase o etapa."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/designsprint.png",
+            "alt": "Metodología Design Sprint"
+          }
+        ],
+        "HMW?": [
+          {
+            "title": "Comenzamos haciéndonos preguntas con How Might We?",
+            "text": "Con esta herramienta propusimos mejoras o funcionalidades importantes para solucionar el problema. De todas las propuestas validamos tres como más relevantes. Accesibilidad y soporte profesional, concienciación y acompañamiento y Respuesta inmediata ante crisis."
+          }
+        ],
+        "User Personas & Journey map": [
+          {
+            "title": "Definimos y comprendemos a nuestro usuario",
+            "text": "A través de la creación de los user personas y un customer journey, conseguimos comprender mejor quiénes eran nuestros usuarios, sus motivaciones, frustraciones y necesidades. Estas herramientas nos ayudaron a identificar los momentos críticos de interacción, detectar oportunidades de mejora y priorizar los flujos clave para el prototipo, asegurando que la experiencia del producto respondiera de manera efectiva a sus expectativas."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/user.png",
+            "alt": "User personas"
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/journey.png",
+            "alt": "Journey map"
+          }
+        ],
+        "Lightning  demos": [
+          {
+            "title": "Inspiración y conceptualización del producto",
+            "text": "Nos dispusimos a gestionar y definir los colores, tipografía y elementos visuales que posteriormente añadiríamos a nuestro producto, convergiendo en la necesidad de colores tranquilizadores y tonos tierra, basándonos en la teoría del color para transmitir tralquilidad y equilibrio."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/ld.png",
+            "alt": "Lightning  Demos"
+          }
+        ],
+        "Crazy 8's": [
+          {
+            "title": "Una vez realizada la fase de ideación",
+            "text": "Mediante la dinámica Crazy 8's definimos de forma visual los elementos más relevantes de nuestro producto. En este caso, acordamos mediante votaciones los flujos más importantes, llegando a la conclusión de que los flujos que habíamos elegido eran determinantes para poder transmitir los ideales de nuestro producto."
+          }
+        ],
+        "Wireframes": [
+          {
+            "title": "Tras decidir los flujos más relevantes",
+            "text": "los wireframes fueron fundamentales para materializar los flujos elegidos, ayudando a definir con claridad la organización, estructuración e interacciones propuestas. Gracias a esto, pudimos gestionarnos el trabajo de manera más eficaz, escogiendo cada uno un flujo para convertirlo en alta fidelidad, agilizando el proceso y la posterior entrega."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/wireframe.png",
+            "alt": "Wireframes"
+          }
+        ],
+        "UI": [
+          {
+            "title": "Tras organizar los flujos más relevantes para nuestro producto",
+            "text": "Nos enfocamos en diseñar las funciones y flujos más relevantes de la app, como la sección de actuación inmediata basada en el control de pulsaciones mediante smartwatch, la llamada de emergencia a contactos de confianza en caso extremo o un apartado donde el usuario puede expresar cómo se siente en cada momento."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/ui.png",
+            "alt": "UI"
+          }
+        ],
+        "Design System": [
+          {
+            "title": "Al determinar la identidad visual, construimos un Design System",
+            "text": "Introdujimos dentro de ese Sistema de diseño colores, tipografía y componentes basados en la metodología de Atomic Design. Esta metodología nos aportó estructura y coherencia en el diseño, ya que nos facilitó la rápida iteración, permitiéndonos adaptar la interfaz a diferentes estados, resoluciones y contextos de uso."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/ds.png",
+            "alt": "Design System"
+          }
+        ],
+        "Testing": [
+          {
+            "title": "Una vez finalizado el prototipado",
+            "text": "Realizamos una serie de encuestas para poder valorar en qué puntos habíamos conseguido nuestro objetivo y en cuales otros debíamos mejorar. Los usuarios expusieron la facilidad de uso como elemento clave y que algunas partes o funciones podían ser ciertamente confusas."
+          },
+          {
+            "image": "/assets/projects/mentalizt/research/mzt.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Conclusiones": [
+          {
+            "title": "Ya finalizado el producto",
+            "text": "Este proyecto nos ayudó a trabajar en equipo, resolver los problemas conforme se planteaban y lidiar desde un punto de vista siempre asertivo y constructivo con las opiniones propuestas por cada uno del grupo. No obstante, debemos recalcar la facilidad de gestión y organización que presentó cada miembro del grupo, posicionandose siempre desde una perspectiva positiva y en pos del sí, lo que creó una dinámica de liderazgo orgánica y enriquecedora, en la que todos nos retroalimentamos los unos de los otros."
+          }
+        ]
       }
     }
   },
