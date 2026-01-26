@@ -3,7 +3,7 @@
     "slug": "arteo",
     "img": "/assets/projects/arteo/arteo-main.png",
     "name": "Arteo",
-    "technologies": ["Mobile", "IA"],
+    "technologies": ["Mobile", "Accesibilidad", "Design System"],
     "logo": "/assets/projects/arteo/logo.png",
     "detail": {
       "header": {
@@ -257,7 +257,7 @@
     "slug": "mentalizt",
     "img": "/assets/projects/mentalizt/mentalizt-main.png",
     "name": "MentaliZT",
-    "technologies": ["Mobile"],
+    "technologies": ["Mobile", "Accesibilidad", "Design System"],
     "logo": "/assets/projects/mentalizt/logo.png",
     "detail": {
       "header": {
@@ -526,6 +526,185 @@
       "solution": {
         "text": "Una plataforma web integral que centraliza la planificación, reserva y organización de viajes, utilizando IA para personalizar recomendaciones y optimizar itinerarios, mejorando la experiencia del usuario y apoyando a negocios locales.",
         "video": "https://github.com/VirginiaBedmar/virginiabedmar.github.io/releases/download/1.0/aventra-solution.mp4"
+      },
+      "research": {
+        "objetivos": [
+          {
+            "title": "Comprender y mejorar la experiencia del viajero",
+            "text": "Analizar las necesidades, frustraciones y hábitos de los usuarios para diseñar una plataforma que simplifique la planificación de viajes y reduzca el tiempo y el estrés asociados al proceso."
+          },
+          {
+            "title": "Centralizar y facilitar el acceso a la información",
+            "text": "Ofrecer información clara, transparente y confiable sobre vuelos, alojamientos, transportes y actividades en un único espacio, evitando la dispersión entre múltiples plataformas."
+          },
+          {
+            "title": "Fomentar la personalización del viaje",
+            "text": "Utilizar herramientas basadas en IA para generar recomendaciones ajustadas al presupuesto, tiempo disponible y estilo de viaje de cada usuario, aumentando la relevancia y el valor de la experiencia."
+          },
+          {
+            "title": "Generar confianza y valor añadido",
+            "text": "Construir una plataforma intuitiva y segura que incentive el uso recurrente, integrando experiencias locales y pequeños proveedores para enriquecer el viaje y apoyar la economía local."
+          }
+        ],
+        "Benchmark & DAFO": [
+          {
+            "title": "Competencia directa de Aventra",
+            "text": "Plataformas como Bookingo Airbnb, centradas principalmente en la reserva de alojamientos y, en algunos casos, vuelos y experiencias. Estas herramientas cubren partes concretas del viaje, pero no integran de forma completa todo el proceso de planificación y organización."
+          },
+          {
+            "title": "Competencia indirecta de Aventra",
+            "text": "Herramientas como Skyscanner, se usa de forma fragmentada para comparar precios, buscar información o realizar reservas puntuales."
+          },
+          {
+            "title": "Conclusiones de Benchmark",
+            "text": "Tras el análisis comparativo, se detectan tres grandes oportunidades de diferenciación para Aventra: Centralización del viaje completo en una sola plataforma, Personalización avanzada mediante IA y Enfoque en experiencias locales y auténticas."
+          },
+          {
+            "image": "/assets/projects/aventra/research/benchmark.png",
+            "alt": "Benchmark"
+          },
+          {
+            "title": "DAFO",
+            "text": "Una vez finalizado el Benchmark, se realizó un análisis DAFO con el objetivo de identificar las fortalezas, debilidades, oportunidades y amenazas de Aventra dentro del mercado actual. Este análisis permitió detectar ventajas competitivas claras, como la personalización y la planificación integral del viaje, así como posibles barreras como la fuerte presencia de plataformas consolidadas y la desconfianza inicial hacia nuevas herramientas. A partir de este estudio, se definieron oportunidades de diferenciación y líneas estratégicas para el desarrollo del producto."
+          }
+        ],
+        "Encuestas & Entrevistas": [
+          {
+            "title": "Nuestro estudio estratégico puso en evidencia carencias importantes en las plataformas actuales de planificación de viajes, así como áreas de alto potencial para Aventra.",
+            "text": "Para validar y priorizar estas oportunidades, se reforzó la investigación con encuestas y entrevistas a usuarios."
+          },
+          {
+            "title": "Insights obtenidos",
+            "text": "Los usuarios expresan una clara sensación de fragmentación al organizar sus viajes, ya que necesitan recurrir a varias plataformas para cubrir todas sus necesidades. Esta dispersión, unida a la falta de transparencia en precios e información, genera desconfianza y frustración. Al mismo tiempo, se observa una alta demanda de soluciones personalizadas que tengan en cuenta el presupuesto, el tiempo disponible y el estilo de viaje de cada persona. Finalmente, los viajeros valoran de forma especial la posibilidad de descubrir experiencias locales auténticas desde una única plataforma que centralice todo el proceso."
+          },
+          {
+            "image": "/assets/projects/aventra/research/insights.png",
+            "alt": "Insights"
+          }
+        ],
+        "Usuarios": [
+          {
+            "title": "A partir del análisis de los datos obtenidos en las encuestas y las entrevistas",
+            "text": "Obtuvimos patrones de comportamiento y necesidades comunes que sirvieron como base para la definición de user personas claras, representativas y alineadas con los distintos perfiles de viajeros."
+          },
+          {
+            "image": "/assets/projects/aventra/research/user.png",
+            "alt": "Usuarios"
+          }
+        ],
+        "Mapa de empatía": [
+          {
+            "title": "Tras determinar los user personas",
+            "text": "Elaboramos un mapa de empatía para entender mejor sus motivaciones, necesidades y frustraciones. El análisis reveló que los usuarios priorizan información clara y confiable sobre vuelos, alojamientos y actividades, valoran la personalización de recomendaciones según sus preferencias y presupuesto, y buscan centralizar todo el proceso de planificación en una única plataforma que les permita ahorrar tiempo y organizar viajes sin complicaciones."
+          }
+        ],
+        "Journey map": [
+          {
+            "title": "Mediante el journey de Elena, podemos ver los momentos determinantes de su experiencia con Aventra"
+          },
+          {
+            "title": "Momento de la verdad",
+            "text": "Elena busca en todas las plataformas para organizar su viaje pero en esta ocasión las compara con Aventra. Aunque al principio desconfía de una nueva plataforma, comienza a explorarla y descubre que tiene toda la información de vuelos, alojamientos y actividades en un solo lugar, con un proceso claro y sencillo."
+          },
+          {
+            "title": "Momento WOW",
+            "text": "Al usar Aventra, Elena se da cuenta de que reservar todo el viaje es rápido, intuitivo y sin complicaciones. Todas las confirmaciones y detalles están organizados en la plataforma, lo que le permite sentirse segura y ahorrar tiempo, mientras planifica una experiencia completa y personalizada para ella y sus amigos."
+          },
+          {
+            "image": "/assets/projects/aventra/research/userjourney.png",
+            "alt": "User Journey Map"
+          },
+          {
+            "image": "/assets/projects/aventra/research/blabla.png",
+            "alt": "User Journey"
+          }
+        ],
+        "Ajuste producto-mercado": [
+          {
+            "title": "Para quién está diseñada y que impacto que genera Aventra",
+            "text": "A partir del journey de Elena y apoyándonos en herramientas como Business Model Canvas y Value Proposition Canvas, combinamos los conceptos clave con la propuesta de valor de Aventra. Aventra es una plataforma web que centraliza alojamiento, transporte y experiencias, ofreciendo recomendaciones personalizadas mediante IA y acceso a experiencias locales auténticas. A través de una experiencia intuitiva y confiable, permite planificar, reservar y organizar viajes completos desde un solo lugar, ahorrando tiempo y facilitando la toma de decisiones incluso sin tener un destino definido."
+          }
+          ],
+        "Ideación": [
+          {
+            "title": "Una vez definida la propuesta de valor de Aventra",
+            "text": "Tras consolidar la propuesta de valor de Aventra, aplicamos la metodología Point of View (POV) para analizar el producto desde la perspectiva del usuario, identificando con claridad sus necesidades y dificultades. Combinamos los hallazgos del research con los insights recogidos, lo que permitió orientar la generación de ideas hacia soluciones relevantes y significativas para los usuarios."
+          },
+          {
+            "image": "/assets/projects/aventra/research/pov.png",
+            "alt": "POV"
+          }
+        ],
+        "Priorización": [
+          {
+            "title": "Tras identificar posibles mejoras en la fase de ideación",
+            "text": "clasificamos las funcionalidades de Aventra usando el método MOSCOW, separando lo imprescindible de lo que podría añadirse más adelante. Esta organización nos ayudó a centrar el desarrollo en los elementos que aportan mayor valor para los usuarios y para la plataforma, guiando la toma de decisiones de forma estratégica."
+          },
+          {
+            "image": "/assets/projects/aventra/research/moscow.png",
+            "alt": "MOSCOW"
+          }
+        ],
+        "Card Sorting & AI": [
+          {
+            "title": "Después de seleccionar las funcionalidades más importantes",
+            "text": "Aplicamos la técnica de Card Sorting para estructurar la navegación de Aventra. Esto nos permitió diseñar un flujo intuitivo y ordenado, asegurando que los usuarios puedan moverse por la plataforma de manera clara, eficiente y cómoda."
+          },
+          {
+            "image": "/assets/projects/aventra/research/ai.png",
+            "alt": "Metodología Design Thinking"
+          }
+        ],
+        "Wireframes": [
+          {
+            "title": "Una vez definida la estructura jerárquica y organizativa",
+            "text": "comenzamos a desarrollar wireframes de baja y media fidelidad. Estos bocetos nos permitieron establecer la disposición visual y validar la organización de la información antes de avanzar al diseño de alta fidelidad."
+          },
+          {
+            "image": "/assets/projects/aventra/research/wireframe.png",
+            "alt": "Wireframes"
+          }
+        ],
+        "Identidad visual": [
+          {
+            "title": "Desarrollamos la identidad visual de Aventra alineada con los valores que queremos transmitir",
+            "text": "La identidad visual de Aventra se diseñó para transmitir confianza, tranquilidad y claridad, generando una sensación de seguridad y fiabilidad en la plataforma. La tipografía moderna y legible y el logotipo minimalista refuerzan la simplicidad, coherencia y reconocimiento de la marca en toda la interfaz."
+          },
+          {
+            "image": "/assets/projects/aventra/research/iden.png",
+            "alt": "Identidad Visual"
+          }
+        ],
+        "Design System": [
+          {
+            "title": "Una vez definida la identidad visual, desarrollamos un sistema de diseño escalable que integró los elementos clave de la plataforma.",
+            "text": "Incorporamos al sistema de diseño la tipografía, los componentes y los estilos visuales, siguiendo una estructura modular que nos aportó coherencia y consistencia en toda la plataforma. Esta organización nos permitió iterar de manera ágil, adaptando la interfaz a distintos estados, dispositivos y contextos de uso, garantizando una experiencia clara y homogénea para los usuarios."
+          },
+          {
+            "image": "/assets/projects/aventra/research/ds.png",
+            "alt": "Design System"
+          }
+        ],
+        "UI": [
+          {
+            "title": "Elaboramos las pantallas detalladas en alta fidelidad.",
+            "text": "Nos centramos en diseñar los flujos y funcionalidades clave de la plataforma."
+          },
+          {
+            "image": "/assets/projects/aventra/research/pantalla.png",
+            "alt": "UI"
+          }
+        ],
+        "Futuribles": [
+          {
+            "title": "Futuras oportunidades y evolución del producto",
+            "text": "Analizando el feedback de los usuarios y sus patrones de uso, hemos identificado mejoras clave para próximas iteraciones, destacando la incorporación de un motor de búsqueda inteligente y un comparador visual de precios que optimizan la experiencia y facilitan la toma de decisiones."
+          },
+          {
+            "image": "/assets/projects/aventra/aventra-main.png",
+            "alt": "Futuribles"
+          }
+        ]
       }
     }
   }
